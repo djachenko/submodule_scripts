@@ -11,7 +11,7 @@ git stash
 
 git checkout "$dest_branch"
 
-./new_pull.sh
+pull.sh
 
 git checkout "$current_branch"
 
