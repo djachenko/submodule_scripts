@@ -1,6 +1,6 @@
 #!/bin/bash
 
-. ./repositories.sh
+. ./.config.sh
 
 pushd "$main_repo" >> /dev/null
 
