@@ -1,8 +1,13 @@
 #!/bin/bash
 
+
 if [ -n "$1" ]; then
+  git checkout $1
+
   checkout.sh $1
 fi
+
+pull.sh
 
 git submodule init
 
